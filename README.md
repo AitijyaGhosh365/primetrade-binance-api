@@ -143,8 +143,3 @@ Two example log files are included with the deliverable:
 - **Decimal precision.** Quantity and price are forwarded to Binance with
   trailing zeros stripped; the exchange enforces symbol-specific lot/tick sizes
   and will reject non-conforming values with a clear API error.
-
-## Architecture
-
-See [ARCHITECTURE.md](./ARCHITECTURE.md) for the module diagram, request flow,
-and design rationale.
